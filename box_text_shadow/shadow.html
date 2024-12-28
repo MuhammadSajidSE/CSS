@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+        }
+        .item{
+            margin: 10px 50px;
+            padding: 20px 10px;
+            text-align: center;
+            /**out side shadow/
+            /*box-shadow: 10px 10px green;/*upar dalna hoto x,y, blur,sprea*/
+            /*box-shadow: 10px 10px 6px 10px green;/*nivha dalna ha to*/
+            background-color: aquamarine;
+
+            /*inside shadow*/
+            box-shadow: inset 10px 10px 6px 10px green;/*nivha dalna ha to*/
+        }
+        h2{
+            text-shadow: 1px 1px brown;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item" id="item1">
+            <h2>Lorem, ipsum dolor.</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam quod similique sed autem, libero doloremque cum ipsa fuga error perspiciatis nemo delectus voluptatem. Quo, soluta officiis voluptatibus quos at debitis quia iure consequatur cum!</p>
+        </div>
+        <div class="item" id="item2">
+            <h2>Lorem, ipsum dolor.</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam quod similique sed autem, libero doloremque cum ipsa fuga error perspiciatis nemo delectus voluptatem. Quo, soluta officiis voluptatibus quos at debitis quia iure consequatur cum!</p>
+        </div>
+        <div class="item" id="item3">
+            <h2>Lorem, ipsum dolor.</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam quod similique sed autem, libero doloremque cum ipsa fuga error perspiciatis nemo delectus voluptatem. Quo, soluta officiis voluptatibus quos at debitis quia iure consequatur cum!</p>
+        </div>
+    </div>
+</body>
+</html>

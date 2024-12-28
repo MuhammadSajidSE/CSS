@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        img{
+            width: 200px;
+            height: 200px;
+            display: block;
+            margin: auto;
+        }
+        h3{
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin:auto;
+            text-align: center;
+        }
+        header{
+            border: 2px solid red;
+            width: 1000px;
+            margin: auto;
+            background-color: rgb(222, 222, 200);
+        }
+        .box{
+            text-align: center;
+            border:2px solid black;
+            padding: 15px;
+            width: 33%;
+            margin-top: 10px;
+            display: inline-block;/*make the block to inline element*/
+            box-sizing: border-box;
+            border-top-left-radius: 30px;
+            border-bottom-right-radius: 30px;
+            background-color: bisque;
+        }
+        .container{
+            margin: auto;
+            width: 1000px;
+        }
+        #para{
+            color: rgb(229, 15, 15);
+        }
+        .image{
+            filter: blur(0.7px) brightness(100%);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h3>Muhammmad Sajid</h3>
+        <img src="sajid.jpeg" alt="">
+        <!-- display: incline; it means that the block element take only reqired area not all -->
+        <!-- inline ma width set nahi hosakta  -->
+        <!-- display: block; make the inlne to block element -->
+    </header>
+    <div class="container">
+    <div class="box">
+        <h4 class="heading">heading</h4>
+        <div class="image"><img src="images (2).jpg" alt=""></div>
+        <p id="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam dignissimos, nulla laboriosam provident ab dolore vel id hic dolores nihil inventore nemo impedit pariatur quis doloribus rem ullam necessitatibus officia quasi nisi assumenda similique recusandae architecto. Nulla voluptas deleniti tempora!</p>
+    </div>
+    <div class="box">
+        <h4 class="heading">heading</h4>
+        <div class="image"><img src="images (2).jpg" alt=""></div>
+        <p id="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam dignissimos, nulla laboriosam provident ab dolore vel id hic dolores nihil inventore nemo impedit pariatur quis doloribus rem ullam necessitatibus officia quasi nisi assumenda similique recusandae architecto. Nulla voluptas deleniti tempora!</p>
+    </div>
+    <div class="box">
+        <h4 class="heading">heading</h4>
+        <div class="image"><img src="images (2).jpg" alt=""></div>
+        <p id="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam dignissimos, nulla laboriosam provident ab dolore vel id hic dolores nihil inventore nemo impedit pariatur quis doloribus rem ullam necessitatibus officia quasi nisi assumenda similique recusandae architecto. Nulla voluptas deleniti tempora!</p>
+    </div>
+</div>
+
+</body>
+</html>

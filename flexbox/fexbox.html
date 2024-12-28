@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        .item{
+            border: 2px solid rgb(255, 0, 0);
+            background-color: rgb(36, 199, 240);
+            margin: 10px;
+            padding: 10px;
+            height: 40px;
+            width: 100px;
+
+        }
+        .container{
+            border: 2px solid rgb(111, 0, 255);
+            width: 100%;
+            height: 400px;
+            display: flex;
+            /* flex conatiner property flex-direction flex-wrap jsutify-content align-item*/
+           
+            /*flex-direction: column-reverse;
+            flex-direction: row-reverse;
+            flex-direction: column;
+            flex-direction: row;*/
+
+            /*flex-wrap: wrap;
+            flex-flow: row-reverse wrap;*/
+
+
+            /*horizontally game
+            justify-content: center;
+            justify-content: space-between;/*give the same space between the item
+            justify-content: space-evenly; give the same space between include start and end
+            justify-content: space-around; give the same space each element*/
+
+            /*vertical game*/
+            /*align-items: flex-start;/*vertical upword*/
+            /*align-items: flex-end;/*vertical down*/
+            /*align-items: stretch;/*strectch elelemt same space*/
+            /*align-items: center;*/
+
+
+        }
+        #intem-1{
+            /*order: 493;/*jis ka order zayada wo end ma 
+            flex-grow: 0;jis ka zayda hoag wo utna bara hoga ja page bara hoga or baki same size raha ga*/
+        }
+        #intem-2{
+            /*flex-grow: 0;
+            flex-basis: 150px;
+            flex-shrink: 6;jab page chota hoga to wo sab sa zyada chota hoga jis ki value sab sa zayada hoga*/
+        }
+        #intem-3{
+            /*flex-basis: 230px; agar flex-direction rwo howa to ya width or column m height*/
+            /*align-self: felx-start*/
+             /*align-self: felx-end/
+              /*align-self: center*/
+            
+        }
+        #intem-4{
+        }
+        #intem-5{
+        }
+        #intem-6{
+            
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item" id="intem-1"><a href="">First</a></div>
+        <div class="item" id="intem-2">second</div>
+        <div class="item" id="intem-3">third</div>
+    </div>
+</body>
+</html>

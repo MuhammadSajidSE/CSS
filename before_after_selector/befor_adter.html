@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      body{
+        font-size: 30px;
+        margin: 0px;
+        padding: 0px;
+      }
+      .navbar{
+        display: flex;
+        border: 2px solid greenyellow;
+        width: 50%;
+        margin: auto;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      }
+      li{
+        list-style: none;
+        padding: 34px 24px;
+        display: inline;
+      }
+      .section{
+        width: 80%;
+        margin: 200px auto;
+        display: flex;
+        flex-direction: column;
+        border: 2px solid red;
+        justify-content: center;
+        align-items: center;
+      }
+      header{
+        display: flex;
+        flex-direction: column;
+      }
+      section::before{/*before section*/
+        content: 'I am before section';
+      }
+      section::after{/*before section*/
+        content: 'I am before section';
+      }
+      h3{
+        font-size: 100px;
+      }
+      .section::before{
+        content: "I am sajid";
+      }
+      .header::before{
+        background-image: url('food.jpg');
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+
+
+      }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <ul>
+                <li class="item">Home</li>
+                <li class="item">About</li>
+                <li class="item">Service</li>
+                <li class="item">Exam</li>
+                <li class="item">Admisssion</li>
+                <li class="item">Contact</li>
+            </ul>
+        </div>
+        <div class="section">
+        <h3>Lorem ipsum dolor sit.</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas expedita ipsum laudantium, .</p>
+    </div>
+    </header>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position</title>
+</head>
+<style>
+    .parent{
+        border: 2px solid black;
+        height: 5000px;
+       
+    }
+.box{
+    text-align: center;
+    border: 2px solid rebeccapurple;
+    height: 50px;
+    width: 100px;
+    margin: 10px;
+    padding-top: 40px;
+    display: inline-block;
+}
+#box3{
+    position: relative;/*move relate to the beside the element*/
+    top: 20px;
+    left: 40px;
+    bottom: 30;
+    right: 100px;
+}
+#box5{
+    position: absolute;/*move relate to the parent element*/
+    top: 10px;
+    left: 100px;
+}
+#box2{
+    position: static;/*static is the by default position*/
+}
+
+#box1{
+    position: fixed;
+    top: 10px;
+}
+
+#box4{
+    position: sticky;
+    top: 100px;
+}
+</style>
+<body>
+    
+</body>
+<div class="parent">
+<div class="box" id="box1">1</div>
+<div class="box" id="box2">2</div>
+<div class="box" id="box3">3</div>
+<div class="box" id="box4">4</div>
+<div class="box" id="box5">5</div>
+</div>
+</html>

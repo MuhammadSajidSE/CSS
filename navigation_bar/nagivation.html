@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <style>
+        .heading{
+            background-color: aquamarine;
+            height: 200px;
+        }
+        .navbar {
+            font-size: 20px;
+            background-color: rgb(0, 0, 0);
+            border: 1px solid black;
+            border-radius: 50px;
+        }
+        .navbar li {
+            float: left;
+            list-style: none;
+            margin: 1px 10px;
+        }
+        .navbar li a {
+            text-decoration: none;
+            padding: 13px 30px;
+            color: rgb(255, 255, 255);
+        }
+        .navbar ul {
+            overflow: auto;
+        }
+        .search {
+            color: rgb(148, 156, 156);
+            margin-left: 1100px ;
+        }
+        li a:hover{
+            color: rgb(9, 240, 59);
+        }
+        .navbar input{
+            border: 1px solid black;
+            border-radius: 14px;
+            height: 18px;
+            padding: 3px 17px;
+        }
+        #name{
+            font-size: 40px;
+            font-style: italic;
+            margin-top: 50px;
+            margin-left:550px;
+            font-family: 'Roboto Mono', monospace;
+        }
+    </style>
+</head>
+<body>
+    <header class="heading">
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Admission</a></li>
+                <li><a href="#">Academic</a></li>
+                <li><a href="#">Academy</a></li>
+                <li><a href="#">Research</a></li>
+                <li><a href="#">Alumunai</a></li>
+                <div class="search">
+                    <input type="text" placeholder="search web">
+                </div>
+            </ul>
+        </nav>
+        <h1 id="name">MUHAMMAD SAJID</h1>
+    </header>
+</body>
+
+</html>
